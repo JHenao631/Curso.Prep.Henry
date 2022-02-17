@@ -246,8 +246,6 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
 
-  const vocal = ["a", "e", "i", "o", "u"]
-  
   if (letra.length > 1) { 
     return 'Dato incorrecto'
   }
